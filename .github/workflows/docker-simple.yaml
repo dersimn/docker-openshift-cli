@@ -71,7 +71,7 @@ jobs:
             type=ref,event=branch
             type=ref,event=tag
             # Git commit short SHA: sha-ad132f5
-            type=sha
+            #type=sha
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
